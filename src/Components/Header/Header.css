@@ -1,0 +1,12 @@
+nav {
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid salmon;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+}

@@ -12,7 +12,7 @@ const Topic = ({ topic }) => {
         <p className="m-0">Total questions: {total}</p>
         <Link
           to={`/topics/${id}`}
-          className="text-decoration-none bg-primary p-1 rounded text-white fw-bold"
+          className="text-decoration-none bg-primary p-1 rounded text-white fw-bold start-hover"
         >
           Start practice
         </Link>

@@ -1,9 +1,9 @@
 import React from "react";
 
-const Option = ({ option }) => {
+const Option = ({ option, ansChecker }) => {
   return (
     <div>
-      <button>{option}</button>
+      <button onClick={() => ansChecker(option)}>{option}</button>
     </div>
   );
 };

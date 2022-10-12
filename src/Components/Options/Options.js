@@ -2,11 +2,11 @@ import React from "react";
 import Option from "../Option/Option";
 import "./Options.css";
 
-const Options = ({ options }) => {
+const Options = ({ options, ansChecker }) => {
   return (
     <div className="options">
       {options.map((option) => (
-        <Option option={option}></Option>
+        <Option option={option} ansChecker={ansChecker}></Option>
       ))}
     </div>
   );

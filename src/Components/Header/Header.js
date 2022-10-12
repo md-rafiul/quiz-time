@@ -9,7 +9,7 @@ const Header = () => {
         <h3 className="pt-2">Quiz Time</h3>
       </div>
       <div className="d-flex w-full justify-content-center">
-        <Link to="/" className="nav-link">
+        <Link to="/home" className="nav-link">
           Home
         </Link>
         <Link to="/topics" className="nav-link">

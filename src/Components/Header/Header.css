@@ -1,5 +1,5 @@
-nav {
-  padding: 0 10%;
+.nav-bar {
+  /* padding: 0 0; */
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -1,0 +1,30 @@
+.topic-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.topic-container {
+  width: 375px;
+  height: 410px;
+  border-radius: 10px;
+}
+.t-img {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.height-c {
+  height: 45px;
+}
+
+@media screen and (max-width: 570px) {
+  .topic-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 571px) {
+  .topic-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

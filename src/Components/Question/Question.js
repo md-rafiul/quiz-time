@@ -6,7 +6,6 @@ import "react-toastify/dist/ReactToastify.css";
 
 const Questions = ({ ques }) => {
   const { question, options, correctAnswer } = ques;
-  console.log(ques);
 
   const notify = () => toast(correctAnswer);
   const ansChecker = (selectedAnswer) => {
